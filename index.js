@@ -4,7 +4,6 @@ const keep_alive = require('./keep_alive.js')
 
 const prefix = "addreact";
 
-
 const client1 = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -30,7 +29,7 @@ const client22 = new Discord.Client();
 
 client1.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -46,7 +45,7 @@ client1.on("messageCreate", (message) => {
 });
 
 client1.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -68,7 +67,7 @@ client1.on('messageCreate', (message) => {
 
 client1.on('messageCreate', message => {
   // Check if the message starts with 'addreact' and if the message author is you
-  if (message.content.startsWith('addreact') && message.author.id === '869229454927462400') {
+  if (message.content.startsWith('addreact') && message.author.id === '694166467058466820') {
     const args = message.content.slice('addreact'.length).trim().split(/ +/);
     const user = message.mentions.users.first();
     const emoji = args[1];
@@ -98,7 +97,7 @@ client1.login(process.env.token1);
 
 client2.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -114,7 +113,7 @@ client2.on("messageCreate", (message) => {
 });
 
 client2.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -136,7 +135,7 @@ client2.on('messageCreate', (message) => {
 
 client2.on('messageCreate', message => {
   // Check if the message starts with 'addreact' and if the message author is you
-  if (message.content.startsWith('addreact') && message.author.id === '869229454927462400') {
+  if (message.content.startsWith('addreact') && message.author.id === '694166467058466820') {
     const args = message.content.slice('addreact'.length).trim().split(/ +/);
     const user = message.mentions.users.first();
     const emoji = args[1];
@@ -165,7 +164,7 @@ client2.login(process.env.token2);
 
 client3.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-    if (message.author.id === '869229454927462400') {
+    if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -181,7 +180,7 @@ client3.on("messageCreate", (message) => {
 });
 
 client3.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -203,7 +202,7 @@ client3.on('messageCreate', (message) => {
 
 client3.on('messageCreate', message => {
   // Check if the message starts with 'addreact' and if the message author is you
-  if (message.content.startsWith('addreact') && message.author.id === '869229454927462400') {
+  if (message.content.startsWith('addreact') && message.author.id === '694166467058466820') {
     const args = message.content.slice('addreact'.length).trim().split(/ +/);
     const user = message.mentions.users.first();
     const emoji = args[1];
@@ -232,7 +231,7 @@ client3.login(process.env.token3);
 
 client4.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -248,7 +247,7 @@ client4.on("messageCreate", (message) => {
 });
 
 client4.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -270,7 +269,7 @@ client4.on('messageCreate', (message) => {
 
 client4.on('messageCreate', message => {
   // Check if the message starts with 'addreact' and if the message author is you
-  if (message.content.startsWith('addreact') && message.author.id === '869229454927462400') {
+  if (message.content.startsWith('addreact') && message.author.id === '694166467058466820') {
     const args = message.content.slice('addreact'.length).trim().split(/ +/);
     const user = message.mentions.users.first();
     const emoji = args[1];
@@ -299,7 +298,7 @@ client4.login(process.env.token4);
 
 client5.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -315,7 +314,7 @@ client5.on("messageCreate", (message) => {
 });
 
 client5.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -337,7 +336,7 @@ client5.on('messageCreate', (message) => {
 
 client5.on('messageCreate', message => {
   // Check if the message starts with 'addreact' and if the message author is you
-  if (message.content.startsWith('addreact') && message.author.id === '869229454927462400') {
+  if (message.content.startsWith('addreact') && message.author.id === '694166467058466820') {
     const args = message.content.slice('addreact'.length).trim().split(/ +/);
     const user = message.mentions.users.first();
     const emoji = args[1];
@@ -366,7 +365,7 @@ client5.login(process.env.token5);
 
 client6.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -382,7 +381,7 @@ client6.on("messageCreate", (message) => {
 });
 
 client6.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -406,7 +405,7 @@ client6.login(process.env.token6);
 
 client7.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -422,7 +421,7 @@ client7.on("messageCreate", (message) => {
 });
 
 client7.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -446,7 +445,7 @@ client7.login(process.env.token7);
 
 client8.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-    if (message.author.id === '869229454927462400') {
+    if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -462,7 +461,7 @@ client8.on("messageCreate", (message) => {
 });
 
 client8.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -486,7 +485,7 @@ client8.login(process.env.token8);
 
 client9.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-    if (message.author.id === '869229454927462400') {
+    if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -502,7 +501,7 @@ client9.on("messageCreate", (message) => {
 });
 
 client9.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -526,7 +525,7 @@ client9.login(process.env.token9);
 
 client10.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-    if (message.author.id === '869229454927462400') {
+    if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -542,7 +541,7 @@ client10.on("messageCreate", (message) => {
 });
 
 client10.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -566,7 +565,7 @@ client10.login(process.env.token10);
 
 client11.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -582,7 +581,7 @@ client11.on("messageCreate", (message) => {
 });
 
 client11.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -606,7 +605,7 @@ client11.login(process.env.token11);
 
 client12.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -622,7 +621,7 @@ client12.on("messageCreate", (message) => {
 });
 
 client12.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -646,7 +645,7 @@ client12.login(process.env.token12);
 
 client13.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-    if (message.author.id === '869229454927462400') {
+    if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -662,7 +661,7 @@ client13.on("messageCreate", (message) => {
 });
 
 client13.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -686,7 +685,7 @@ client13.login(process.env.token13);
 
 client14.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -702,7 +701,7 @@ client14.on("messageCreate", (message) => {
 });
 
 client14.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -726,7 +725,7 @@ client14.login(process.env.token14);
 
 client15.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -742,7 +741,7 @@ client15.on("messageCreate", (message) => {
 });
 
 client15.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -766,7 +765,7 @@ client15.login(process.env.token15);
 
 client16.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -782,7 +781,7 @@ client16.on("messageCreate", (message) => {
 });
 
 client16.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -806,7 +805,7 @@ client16.login(process.env.token16);
 
 client17.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -822,7 +821,7 @@ client17.on("messageCreate", (message) => {
 });
 
 client17.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -846,7 +845,7 @@ client17.login(process.env.token17);
 
 client18.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-    if (message.author.id === '869229454927462400') {
+    if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -862,7 +861,7 @@ client18.on("messageCreate", (message) => {
 });
 
 client18.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -886,7 +885,7 @@ client18.login(process.env.token18);
 
 client19.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-    if (message.author.id === '869229454927462400') {
+    if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -902,7 +901,7 @@ client19.on("messageCreate", (message) => {
 });
 
 client19.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -926,7 +925,7 @@ client19.login(process.env.token19);
 
 client20.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-    if (message.author.id === '869229454927462400') {
+    if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -942,7 +941,7 @@ client20.on("messageCreate", (message) => {
 });
 
 client20.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -966,7 +965,7 @@ client20.login(process.env.token20);
 
 client21.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -982,7 +981,7 @@ client21.on("messageCreate", (message) => {
 });
 
 client21.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -1006,7 +1005,7 @@ client21.login(process.env.token21);
 
 client22.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -1022,7 +1021,7 @@ client22.on("messageCreate", (message) => {
 });
 
 client22.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
